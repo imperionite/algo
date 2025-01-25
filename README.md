@@ -31,5 +31,4 @@ mvn clean && mvn install
 # run Spring boot app
 mvn spring-boot:run
 
-
 ```
