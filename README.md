@@ -22,9 +22,6 @@ docker stop mysql
 # restart container
 docker restart mysql
 
-# run Flyway migration
-mvn flyway:migrate 
-
 # clean and build Spring Boot app
 mvn clean && mvn install
 

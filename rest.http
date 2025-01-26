@@ -1,0 +1,30 @@
+### add stock
+POST http://127.0.0.1:8080/api/stocks HTTP/1.1
+Content-Type: application/json
+
+{
+    "dateEntered": "5/1/2024",
+    "stockLabel": "New",
+    "engineNumber": "3ZZ885OJW8V",
+    "brand": "Yamaha",
+    "status": "Sold"
+}
+
+
+### sort by brand
+GET http://127.0.0.1:8080/api/stocks/sort HTTP/1.1
+Content-Type: application/json
+
+### search by id
+GET http://127.0.0.1:8080/api/stocks/search/3 HTTP/1.1
+Content-Type: application/json
+
+### search by engine number
+GET http://127.0.0.1:8080/api/stocks/criteria/X8G5ZZ7A69 HTTP/1.1
+Content-Type: application/json
+
+### delete by id
+DELETE http://127.0.0.1:8080/api/stocks/29 HTTP/1.1
+Content-Type: application/json
+
+
